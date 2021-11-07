@@ -16,7 +16,7 @@
   },
   "_requiredBy": [],
   "_resolved": "https://github.com/pyenv/pyenv/archive/v2.2.0.tar.gz",
-  "_shasum": "c79e390d359ef1bc736e41ba6dd5ca016f5f4842",
+  "_shasum": "dfee9cbb3d0d13358c9178c4f1474e7c84ed5ce4",
   "_spec": "pyenv@^2.2.0",
   "_where": "/root/github2/pkg-pyenv",
   "author": "Yuu Yamashita, Sam Stephenson, Mislav Marohnić, Josh Friend",
