@@ -9,7 +9,7 @@
 >
 > Please upgrade to [ZI](https://github.com/z-shell-zi)
 
-The [ZI](https://github.com/z-shell/zi) package [pyenv](https://github.com/pyenv/pyenv) can use the NPM package registry to automatically:
+The [ZI](https://github.com/z-shell/zi) [pyenv](https://github.com/pyenv/pyenv) package can use the NPM package registry to automatically:
 
 - get the plugin's Git repository OR release-package URL,
 - get the list of the recommended ices for the plugin,
