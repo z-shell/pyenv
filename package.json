@@ -1,6 +1,6 @@
 {
-  "repository":"https://github.com/pyenv//pyenv",
-  "_from": "pyenv/pyenv",
+  "repository":"https://github.com/pyenv/pyenv",
+  "_from": "pyenv@^2.2.2",
   "_id": "zsh-pyenv@2.2.2",
   "_inBundle": false,
   "_location": "/zsh-pyenv",
@@ -9,7 +9,7 @@
     "type": "range",
     "registry": true,
     "raw": "pyenv@^2.2.2",
-    "name": "pyenv",
+    "name": "zsh-pyenv",
     "escapedName": "pyenv",
     "rawSpec": "^2.2.2",
     "saveSpec": null,
