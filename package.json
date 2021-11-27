@@ -1,5 +1,6 @@
 {
-  "_from": "pyenv@^2.2.2",
+  "repository":"https://github.com/pyenv//pyenv",
+  "_from": "pyenv/pyenv",
   "_id": "zsh-pyenv@2.2.2",
   "_inBundle": false,
   "_location": "/zsh-pyenv",
@@ -38,7 +39,7 @@
     "zsh"
   ],
   "license": "MIT",
-  "name": "zsh-pyenv",
+  "name": "pyenv",
   "scripts": {
     "test": "make test"
   },
