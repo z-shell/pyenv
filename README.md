@@ -2,6 +2,12 @@
 | :-----------------: | :--------------: | :----: | :-: | :--: | :-: |
 |     **Status:**     | + <br> (default) |   -    |  +  |  –   |  –  |
 
+- [Introduction](#introduction)
+- [Install](#install)
+	- [Available `pack''` invocations](#available-pack-invocations)
+	- [Default Profile](#default-profile)
+	- [Bin-Gem-Node Profile](#bin-gem-node-profile)
+
 # Introduction
 
 > **[?]**
@@ -9,15 +15,18 @@
 >
 > Please upgrade to [ZI](https://github.com/z-shell-zi)
 
-The [ZI](https://github.com/z-shell/zi) [pyenv](https://github.com/pyenv/pyenv) package can use the NPM package registry to automatically:
+The [pyenv/pyenv](https://github.com/pyenv/pyenv) zsh package than can use the NPM package registry to automatically:
 
-- get the plugin's Git repository OR release-package URL,
-- get the list of the recommended ices for the plugin,
-  - there can be multiple lists of ices,
-  - the ice lists are stored in _profiles_; there's at least one profile, _default_,
-  - the ices can be selectively overridden.
+-   get the plugin's Git repository OR release-package URL,
+-   get the list of the recommended ices for the plugin,
+    -   there can be multiple lists of ices,
+    -   the ice lists are stored in _profiles_; there's at least one profile, _default_,
+    -   the ices can be selectively overridden.
 
-Example invocations that'll install
+# Install
+
+## Available `pack''` invocations
+
 [pyenv/pyenv](https://github.com/pyenv/pyenv) either from the release archive
 or from Git repository:
 
