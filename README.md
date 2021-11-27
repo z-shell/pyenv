@@ -4,6 +4,11 @@
 
 # Introduction
 
+> **[?]**
+> This repository not compatible with previous versions (zplugin, zinit).
+>
+> Please upgrade to [ZI](https://github.com/z-shell-zi)
+
 The [ZI](https://github.com/z-shell/zi) package [pyenv](https://github.com/pyenv/pyenv) can use the NPM package registry to automatically:
 
 - get the plugin's Git repository OR release-package URL,
