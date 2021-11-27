@@ -1,5 +1,4 @@
 {
-  "repository":"https://github.com/pyenv/pyenv",
   "_from": "pyenv@^2.2.2",
   "_id": "zsh-pyenv@2.2.2",
   "_inBundle": false,
@@ -9,7 +8,7 @@
     "type": "range",
     "registry": true,
     "raw": "pyenv@^2.2.2",
-    "name": "zsh-pyenv",
+    "name": "pyenv",
     "escapedName": "pyenv",
     "rawSpec": "^2.2.2",
     "saveSpec": null,
@@ -39,11 +38,11 @@
     "zsh"
   ],
   "license": "MIT",
-  "name": "pyenv",
+  "name": "zsh-pyenv",
   "scripts": {
     "test": "make test"
   },
-  "version": "2.2.2",
+  "version": "^2.2.2",
   "zsh-data": {
     "plugin-info": {
       "user": "pyenv",
