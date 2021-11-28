@@ -1,12 +1,16 @@
-| **Package source:** |  Source Tarball  | Binary | Git | Node | Gem |
-| :-----------------: | :--------------: | :----: | :-: | :--: | :-: |
-|     **Status:**     | + <br> (default) |   -    |  +  |  –   |  –  |
+<h3>
+
+| **Package source:** |        Source Tarball        | Binary |        Git         | Node | Gem |
+| :-----------------: | :--------------------------: | :----: | :----------------: | :--: | :-: |
+|     **Status:**     | :heavy_check_mark: (default) |  :x:   | :heavy_check_mark: | :x:  | :x: |
+
+</h3>
 
 - [Introduction](#introduction)
 - [Install](#install)
 	- [Available `pack''` invocations](#available-pack-invocations)
 	- [Default Profile](#default-profile)
-	- [Bin-Gem-Node Profile](#bin-gem-node-profile)
+	- [`Bin-Gem-Node` Profile](#bin-gem-node-profile)
 
 # Introduction
 
@@ -26,9 +30,6 @@ The [pyenv/pyenv](https://github.com/pyenv/pyenv) zsh package than can use the N
 # Install
 
 ## Available `pack''` invocations
-
-[pyenv/pyenv](https://github.com/pyenv/pyenv) either from the release archive
-or from Git repository:
 
 ```zsh
 # Download the tarball with the default ice list
@@ -55,7 +56,7 @@ zi lucid as'command' pick'bin/pyenv' atinit'export PYENV_ROOT="$PWD"' \
         pyenv/pyenv
 ```
 
-## Bin-Gem-Node Profile
+## `Bin-Gem-Node` Profile
 
 Provides the version manager via _shims_, i.e.: automatic forwarder scripts created
 under `$ZPFX/bin` (which is added to the `$PATH` by default by ZI). It needs the
