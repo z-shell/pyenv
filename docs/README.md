@@ -1,10 +1,18 @@
-<h3>
+<h2 align="center">
+  <a href="https://github.com/z-shell/zi">
+    <img src="https://github.com/z-shell/zi/raw/main/docs/images/logo.svg" alt="Logo" width="80" height="80">
+  </a>
+❮ ZI ❯ Package - pyenv
+</h2>
+
+<h2 align="center">
+
 
 | **Package source:** |        Source Tarball        | Binary |        Git         | Node | Gem |
 | :-----------------: | :--------------------------: | :----: | :----------------: | :--: | :-: |
 |     **Status:**     | :heavy_check_mark: (default) |  :x:   | :heavy_check_mark: | :x:  | :x: |
 
-</h3>
+</h2>
 
 - [Introduction](#introduction)
 - [Install](#install)
