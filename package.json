@@ -1,53 +1,29 @@
 {
-  "_from": "pyenv@^2.2.2",
-  "_id": "zsh-pyenv@2.2.2",
-  "_inBundle": false,
-  "_location": "/zsh-pyenv",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "range",
-    "registry": true,
-    "raw": "pyenv@^2.2.2",
-    "name": "pyenv",
-    "escapedName": "pyenv",
-    "rawSpec": "^2.2.2",
-    "saveSpec": null,
-    "fetchSpec": "^2.2.2"
-  },
-  "_requiredBy": [],
-  "_resolved": "https://github.com/pyenv/pyenv/archive/v2.2.2.tar.gz",
-  "_shasum": "f505191444ebf8ddba690509c50442b87df431ac",
-  "_spec": "pyenv@^2.2.2",
-  "_where": "/root/github2/pkg-pyenv",
-  "author": "Yuu Yamashita, Sam Stephenson, Mislav Marohnić, Josh Friend",
-  "bugs": {
-    "url": "https://github.com/pyenv/pyenv/issues"
-  },
+  "author": "Z-Shell Community",
+  "description": "Simple Python version management",
+  "homepage": "https://github.com/pyenv/pyenv",
+  "license": "MIT",
+  "name": "zsh-pyenv",
+  "version": "2.2.4",
   "contributors": [],
   "dependencies": {},
   "deprecated": false,
-  "description": "Simple Python version management",
   "devDependencies": {},
-  "directories": {
-    "test": "test"
-  },
-  "homepage": "https://github.com/pyenv/pyenv",
+  "bugs": {
+    "url": "https://github.com/pyenv/pyenv/issues"
+  }, 
   "keywords": [
-    "version management",
     "python version management",
-    "zsh"
+    "zsh plugin"
   ],
-  "license": "MIT",
-  "name": "zsh-pyenv",
   "scripts": {
     "test": "make test"
   },
-  "version": "^2.2.2",
   "zsh-data": {
     "plugin-info": {
       "user": "pyenv",
       "plugin": "pyenv",
-      "version": "2.2.2",
+      "version": "2.2.4",
       "requires": "bgn;bash"
     },
     "zi-ices": {
