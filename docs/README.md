@@ -5,27 +5,23 @@
 ❮ ZI ❯ Package - pyenv
 </h2>
 
-<h2 align="center">
+<h3 align="center">
 
 
 | **Package source:** |        Source Tarball        | Binary |        Git         | Node | Gem |
 | :-----------------: | :--------------------------: | :----: | :----------------: | :--: | :-: |
 |     **Status:**     | :heavy_check_mark: (default) |  :x:   | :heavy_check_mark: | :x:  | :x: |
 
-</h2>
+</h3>
 
 - [Introduction](#introduction)
-- [Install](#install)
-	- [Available `pack''` invocations](#available-pack-invocations)
-	- [Default Profile](#default-profile)
-	- [`Bin-Gem-Node` Profile](#bin-gem-node-profile)
+- [The `pack''` invocations and profiles](#the-pack-invocations-and-profiles)
+  - [Default Profile](#default-profile)
+  - [`Bin-Gem-Node` Profile](#bin-gem-node-profile)
 
 ## Introduction
 
-> **[?]**
-> This repository not compatible with previous versions (zplugin, zinit).
->
-> Please upgrade to [ZI](https://github.com/z-shell-zi)
+> This repository compatible with [ZI](https://github.com/z-shell-zi)
 
 The [pyenv/pyenv](https://github.com/pyenv/pyenv) zsh package that can use the NPM package registry to automatically:
 
@@ -35,9 +31,7 @@ The [pyenv/pyenv](https://github.com/pyenv/pyenv) zsh package that can use the N
     -   the ice lists are stored in _profiles_; there's at least one profile, _default_,
     -   the ices can be selectively overridden.
 
-## Install
-
-### Available `pack''` invocations
+## The `pack''` invocations and profiles
 
 ```zsh
 # Download the tarball with the default ice list
@@ -50,7 +44,7 @@ zi pack"bgn" for pyenv
 zi pack"bgn" git for pyenv
 ```
 
-### Default Profile
+### Default profile
 
 Provides the `pyenv` version manager by extending `$PATH` to make it point into
 the `bin` subdirectory of the plugin.
@@ -64,7 +58,7 @@ zi lucid as'command' pick'bin/pyenv' atinit'export PYENV_ROOT="$PWD"' \
         pyenv/pyenv
 ```
 
-### `Bin-Gem-Node` Profile
+### `Bin-Gem-Node` profile
 
 Provides the version manager via _shims_, i.e.: automatic forwarder scripts created
 under `$ZPFX/bin` (which is added to the `$PATH` by default by ZI). It needs the
