@@ -45,6 +45,7 @@
   "version": "^2.2.4-1",
   "zsh-data": {
     "plugin-info": {
+      "url": "https://github.com/pyenv/pyenv/archive/v2.2.4-1.tar.gz",
       "user": "pyenv",
       "plugin": "pyenv",
       "version": "2.2.4-1",
