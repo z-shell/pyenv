@@ -1,8 +1,8 @@
 <h2 align="center">
   <a href="https://github.com/z-shell/zi">
-    <img src="https://github.com/z-shell/zi/raw/main/docs/images/logo.svg" alt="Logo" width="80" height="80">
+    <img src="https://github.com/z-shell/zi/raw/main/docs/images/logo.svg" alt="Logo" width="80" height="80" />
   </a>
-❮ ZI ❯ Package - pyenv
+❮ ZI ❯ Package - Pyenv
 </h2>
 
 <h3 align="center">
@@ -14,11 +14,10 @@
 
 </h3>
 
-- [The `pack''` invocations and profiles](#the-pack-invocations-and-profiles)
-  - [Default Profile](#default-profile)
-  - [`Bin-Gem-Node` Profile](#bin-gem-node-profile)
+- [Default Profile](#default-profile)
+- [`Bin-Gem-Node` Profile](#bin-gem-node-profile)
 
-> This repository compatible with [ZI](https://github.com/z-shell-zi)
+> This repository compatible with [ZI](https://github.com/z-shell/zi)
 
 The [pyenv/pyenv](https://github.com/pyenv/pyenv) zsh package that can use the NPM package registry to automatically:
 
@@ -27,8 +26,6 @@ The [pyenv/pyenv](https://github.com/pyenv/pyenv) zsh package that can use the N
     -   there can be multiple lists of ices,
     -   the ice lists are stored in _profiles_; there's at least one profile, _default_,
     -   the ices can be selectively overridden.
-
-## The `pack''` invocations and profiles
 
 ```zsh
 # Download the tarball with the default ice list
