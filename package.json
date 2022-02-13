@@ -1,45 +1,53 @@
 {
-  "author": "Z-Shell Community",
-  "description": "Simple Python version management",
-  "homepage": "https://github.com/pyenv/pyenv",
-  "license": "MIT",
-  "name": "zsh-pyenv",
-  "version": "2.2.4-1",
+  "_from": "pyenv@^2.2.2",
+  "_id": "zsh-pyenv@2.2.2",
+  "_inBundle": false,
+  "_location": "/zsh-pyenv",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "pyenv@^2.2.2",
+    "name": "pyenv",
+    "escapedName": "pyenv",
+    "rawSpec": "^2.2.2",
+    "saveSpec": null,
+    "fetchSpec": "^2.2.2"
+  },
+  "_requiredBy": [],
+  "_resolved": "https://github.com/pyenv/pyenv/archive/v2.2.2.tar.gz",
+  "_shasum": "f505191444ebf8ddba690509c50442b87df431ac",
+  "_spec": "pyenv@^2.2.2",
+  "_where": "/root/github2/pkg-pyenv",
+  "author": "Yuu Yamashita, Sam Stephenson, Mislav Marohnić, Josh Friend",
+  "bugs": {
+    "url": "https://github.com/pyenv/pyenv/issues"
+  },
   "contributors": [],
   "dependencies": {},
   "deprecated": false,
+  "description": "Simple Python version management",
   "devDependencies": {},
-  "bugs": {
-    "url": "https://github.com/pyenv/pyenv/issues"
-  }, 
-  "keywords": [
-    "python version management",
-    "zsh plugin"
-  ],
-  "_requested": {
-      "type": "range",
-      "registry": true,
-      "raw": "pyenv@^2.2.4-1",
-      "name": "pyenv",
-      "escapedName": "pyenv",
-      "rawSpec": "^2.2.4-1",
-      "saveSpec": null,
-      "fetchSpec": "^2.2.4-1"
-  },
-  "_requiredBy": [],
-  "_resolved": "https://github.com/pyenv/pyenv/archive/v2.2.4-1.tar.gz",
-  "_shasum": "d166ea498241fe57d802497c8521d6e5bf64299d",
   "directories": {
-      "test": "test"
+    "test": "test"
   },
+  "homepage": "https://github.com/pyenv/pyenv",
+  "keywords": [
+    "version management",
+    "python version management",
+    "zsh"
+  ],
+  "license": "MIT",
+  "name": "zsh-pyenv",
   "scripts": {
     "test": "make test"
   },
+  "version": "^2.2.2",
   "zsh-data": {
     "plugin-info": {
       "user": "pyenv",
       "plugin": "pyenv",
-      "version": "2.2.4-1",
+      "version": "2.2.2",
       "requires": "bgn;bash"
     },
     "zi-ices": {
