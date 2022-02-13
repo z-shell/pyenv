@@ -14,12 +14,9 @@
 
 </h3>
 
-- [Introduction](#introduction)
 - [The `pack''` invocations and profiles](#the-pack-invocations-and-profiles)
   - [Default Profile](#default-profile)
   - [`Bin-Gem-Node` Profile](#bin-gem-node-profile)
-
-## Introduction
 
 > This repository compatible with [ZI](https://github.com/z-shell-zi)
 
