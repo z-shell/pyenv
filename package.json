@@ -7,29 +7,29 @@
   "_shasum": "d166ea498241fe57d802497c8521d6e5bf64299d",
   "_spec": "pyenv@^2.2.4-1",
   "author": "Yuu Yamashita, Sam Stephenson, Mislav Marohnić, Josh Friend",
+  "license": "MIT",
+  "name": "zsh-pyenv",
+  "version": "^2.2.4-1",
+  "description": "Simple Python version management",
+  "homepage": "https://github.com/pyenv/pyenv",
   "bugs": {
     "url": "https://github.com/pyenv/pyenv/issues"
   },
   "contributors": [],
   "dependencies": {},
   "deprecated": false,
-  "description": "Simple Python version management",
   "devDependencies": {},
   "directories": {
     "test": "test"
   },
-  "homepage": "https://github.com/pyenv/pyenv",
   "keywords": [
     "version management",
     "python version management",
     "zsh"
   ],
-  "license": "MIT",
-  "name": "zsh-pyenv",
   "scripts": {
     "test": "make test"
   },
-  "version": "^2.2.4-1",
   "zsh-data": {
     "plugin-info": {
       "user": "pyenv",
