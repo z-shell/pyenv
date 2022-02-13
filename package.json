@@ -5,6 +5,7 @@
   "license": "MIT",
   "name": "zsh-pyenv",
   "version": "^2.2.4-1",
+  "_from": "zsh-pyenv@^2.2.4-1",
   "_resolved": "https://github.com/pyenv/pyenv/archive/v2.2.4-1.tar.gz",
   "_shasum": "d166ea498241fe57d802497c8521d6e5bf64299d",
   "bugs": {
