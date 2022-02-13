@@ -16,6 +16,9 @@
     "python version management",
     "zsh plugin"
   ],
+  "directories": {
+      "test": "test"
+  },
   "scripts": {
     "test": "make test"
   },
