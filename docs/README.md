@@ -14,6 +14,8 @@
 
 </h3>
 
+### Available `pack''` invocations
+
 ```zsh
 # Download the tarball with the default ice list
 zi pack for pyenv
