@@ -14,19 +14,6 @@
 
 </h3>
 
-- [Default Profile](#default-profile)
-- [`Bin-Gem-Node` Profile](#bin-gem-node-profile)
-
-> This repository compatible with [ZI](https://github.com/z-shell/zi)
-
-The [pyenv/pyenv](https://github.com/pyenv/pyenv) zsh package that can use the NPM package registry to automatically:
-
--   get the plugin's Git repository OR release-package URL,
--   get the list of the recommended ices for the plugin,
-    -   there can be multiple lists of ices,
-    -   the ice lists are stored in _profiles_; there's at least one profile, _default_,
-    -   the ices can be selectively overridden.
-
 ```zsh
 # Download the tarball with the default ice list
 zi pack for pyenv
@@ -67,3 +54,15 @@ zi as'null' lucid  atinit'export PYENV_ROOT="$PWD"' \
     atpull"%atclone" src"zpyenv.zsh" nocompile'!' sbin"bin/pyenv" for \
     pyenv/pyenv
 ```
+
+---
+
+> This repository compatible with [ZI](https://github.com/z-shell/zi)
+
+The [pyenv/pyenv](https://github.com/pyenv/pyenv) zsh package that can use the NPM package registry to automatically:
+
+-   get the plugin's Git repository OR release-package URL,
+-   get the list of the recommended ices for the plugin,
+    -   there can be multiple lists of ices,
+    -   the ice lists are stored in _profiles_; there's at least one profile, _default_,
+    -   the ices can be selectively overridden.
