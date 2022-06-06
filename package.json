@@ -26,6 +26,7 @@
     },
     "zi-ices": {
       "default": {
+        "git": "",
         "from": "gh-r",
         "lucid": "",
         "as": "command",
@@ -38,6 +39,7 @@
       },
       "bgn": {
         "requires": "bgn",
+        "git": "",
         "lucid": "",
         "as": "null",
         "atclone": "PYENV_ROOT=\"$PWD\" ./libexec/pyenv init - > zpyenv.zsh",
