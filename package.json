@@ -1,16 +1,8 @@
 {
-  "_from": "pyenv@^2.2.5",
-  "_id": "zsh-pyenv@2.2.5",
-  "_inBundle": false,
-  "_location": "/zsh-pyenv",
-  "_resolved": "https://github.com/pyenv/pyenv/archive/v2.2.5.tar.gz",
-  "_shasum": "d166ea498241fe57d802497c8521d6e5bf64299d",
-  "_spec": "pyenv@^2.2.5",
-  "author": "Yuu Yamashita, Sam Stephenson, Mislav Marohnić, Josh Friend",
-  "license": "MIT",
   "name": "zsh-pyenv",
   "version": "^2.2.5",
   "description": "Simple Python version management",
+  "author": "Yuu Yamashita, Sam Stephenson, Mislav Marohnić, Josh Friend",
   "homepage": "https://github.com/pyenv/pyenv",
   "bugs": {
     "url": "https://github.com/pyenv/pyenv/issues"
@@ -19,17 +11,12 @@
   "dependencies": {},
   "deprecated": false,
   "devDependencies": {},
-  "directories": {
-    "test": "test"
-  },
+  "license": "MIT",
   "keywords": [
     "version management",
     "python version management",
     "zsh"
   ],
-  "scripts": {
-    "test": "make test"
-  },
   "zsh-data": {
     "plugin-info": {
       "user": "pyenv",
