@@ -7,7 +7,6 @@
 
 <h3 align="center">
 
-
 | **Package source:** |        Source Tarball        | Binary |        Git         | Node | Gem |
 | :-----------------: | :--------------------------: | :----: | :----------------: | :--: | :-: |
 |     **Status:**     | :heavy_check_mark: (default) |  :x:   | :heavy_check_mark: | :x:  | :x: |
@@ -63,8 +62,8 @@ zi as'null' lucid  atinit'export PYENV_ROOT="$PWD"' \
 
 The [pyenv/pyenv](https://github.com/pyenv/pyenv) zsh package that can use the NPM package registry to automatically:
 
--   get the plugin's Git repository OR release-package URL,
--   get the list of the recommended ices for the plugin,
-    -   there can be multiple lists of ices,
-    -   the ice lists are stored in _profiles_; there's at least one profile, _default_,
-    -   the ices can be selectively overridden.
+- get the plugin's Git repository OR release-package URL,
+- get the list of the recommended ices for the plugin,
+  - there can be multiple lists of ices,
+  - the ice lists are stored in _profiles_; there's at least one profile, _default_,
+  - the ices can be selectively overridden.
