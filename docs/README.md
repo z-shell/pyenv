@@ -29,10 +29,12 @@
 # Download the tarball with the default ice list
 zi pack for pyenv
 ```
+
 ```shell
 # Download the tarball with the bin-gem-node annex-utilizing ice list
 zi pack"bgn" for pyenv
 ```
+
 ```shell
 # Download with the bin-gem-node annex-utilizing ice list FROM GIT REPOSITORY
 zi pack"bgn" git for pyenv
