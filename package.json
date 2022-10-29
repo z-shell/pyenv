@@ -1,16 +1,11 @@
 {
   "name": "zsh-pyenv",
-  "version": "^2.3.1",
   "description": "Simple Python version management",
   "author": "Yuu Yamashita, Sam Stephenson, Mislav Marohnić, Josh Friend",
   "homepage": "https://github.com/pyenv/pyenv",
   "bugs": {
     "url": "https://github.com/pyenv/pyenv/issues"
   },
-  "contributors": [],
-  "dependencies": {},
-  "deprecated": false,
-  "devDependencies": {},
   "license": "MIT",
   "keywords": [
     "version management",
@@ -21,7 +16,6 @@
     "plugin-info": {
       "user": "pyenv",
       "plugin": "pyenv",
-      "version": "2.3.1",
       "requires": "bgn;bash"
     },
     "zi-ices": {
