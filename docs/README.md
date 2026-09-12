@@ -70,7 +70,7 @@ zi as'null' lucid  atinit'export PYENV_ROOT="$PWD"' \
 
 > This repository compatible with [ZI](https://github.com/z-shell/zi)
 
-The [pyenv/pyenv](https://github.com/pyenv/pyenv) zsh package that uses the [zsh-string-lib](https://github.com/z-shell/zsh-string-lib) to automatically:
+The [pyenv/pyenv](https://github.com/pyenv/pyenv) zsh package. Zi's package support reads its `package.json` to automatically:
 
 - get the plugin's Git repository OR release-package URL,
 - get the list of the recommended ices for the plugin,
