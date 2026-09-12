@@ -21,7 +21,7 @@
     "zi-ices": {
       "default": {
         "git": "",
-        "depth": 1,
+        "depth": "1",
         "lucid": "",
         "as": "command",
         "pick": "bin/pyenv",
