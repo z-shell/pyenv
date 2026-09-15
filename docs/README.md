@@ -42,29 +42,25 @@ zi pack"bgn" git for pyenv
 
 ### Default profile
 
-Provides the `pyenv` version manager by extending `$PATH` to make it point into the `bin` subdirectory of the plugin.
+`zi pack for pyenv` loads the native `bin/pyenv` program and initializes Zsh.
+It preserves an existing `PYENV_ROOT`, defaulting to `$HOME/.pyenv`, so installed
+interpreters live separately from the package checkout. Set your root before
+loading the package. No interpreter is installed or selected automatically.
 
-The ZI command executed will be equivalent to:
-
-```shell
-zi lucid as'command' pick'bin/pyenv' atinit'export PYENV_ROOT="$PWD"' \
-  atclone'PYENV_ROOT="$PWD" ./libexec/pyenv init - > zpyenv.zsh' \
-  atpull"%atclone" src"zpyenv.zsh" nocompile'!' for \
-    pyenv/pyenv
-```
+Initialization uses `pyenv init - zsh` at load time and refreshes command lookup.
+This avoids caching initialization for a different root. Pyenv intentionally
+places its shims first in PATH; project and shell selections then control Python
+resolution. Git updates refresh the package without replacing your root.
 
 ### `Bin-Gem-Node` profile
 
-Provides the version manager via _shims_, i.e.: automatic forwarder scripts created under `$ZPFX/bin` (which is added to the `$PATH` by default by ZI). It needs the [bin-gem-node](https://github.com/z-shell/z-a-bin-gem-node) annex (it has the shim-creation feature).
+`zi pack"bgn" for pyenv` retains the optional forwarder under `$ZPFX/bin` and
+requires the [bin-gem-node annex](https://github.com/z-shell/z-a-bin-gem-node).
+It uses the same root-preserving initialization as the default profile.
 
-The ZI command executed will be equivalent to:
-
-```shell
-zi as'null' lucid  atinit'export PYENV_ROOT="$PWD"' \
-  atclone'PYENV_ROOT="$PWD" ./libexec/pyenv init - > zpyenv.zsh' \
-  atpull"%atclone" src"zpyenv.zsh" nocompile'!' sbin"bin/pyenv" for \
-    pyenv/pyenv
-```
+Existing users whose interpreters reside inside the old package checkout should
+set `PYENV_ROOT` to that directory before loading, or migrate those installations
+separately. The package does not delete or move interpreter installations.
 
 ---
 
